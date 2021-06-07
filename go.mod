@@ -1,8 +1,9 @@
-module github.com/asticode/go-astilectron
-replace github.com/asticode/go-astilectron => github.com/zdglf/go-astilectron v0.24.1
-go 1.13
+module github.com/zdglf/go-astilectron
+
+go 1.14
 
 require (
-	github.com/asticode/go-astikit v0.15.0
-	github.com/stretchr/testify v1.4.0
+	github.com/asticode/go-astikit v0.21.1
+	github.com/asticode/go-astilectron v0.24.0
+	github.com/stretchr/testify v1.7.0
 )
