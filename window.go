@@ -170,7 +170,7 @@ type WebPreferences struct {
 	BackgroundThrottling        *bool   `json:"backgroundThrottling,omitempty"`
 	BlinkFeatures               *string `json:"blinkFeatures,omitempty"`
 	// This attribute needs to be false at all time
-	// ContextIsolation            *bool                  `json:"contextIsolation,omitempty"`
+	ContextIsolation           *bool                  `json:"contextIsolation,omitempty"`
 	DefaultEncoding            *string                `json:"defaultEncoding,omitempty"`
 	DefaultFontFamily          map[string]interface{} `json:"defaultFontFamily,omitempty"`
 	DefaultFontSize            *int                   `json:"defaultFontSize,omitempty"`
@@ -184,7 +184,7 @@ type WebPreferences struct {
 	Javascript                 *bool                  `json:"javascript,omitempty"`
 	MinimumFontSize            *int                   `json:"minimumFontSize,omitempty"`
 	// This attribute needs to be true at all time
-	// NodeIntegration             *bool                  `json:"nodeIntegration,omitempty"`
+	NodeIntegration         *bool                  `json:"nodeIntegration,omitempty"`
 	NodeIntegrationInWorker *bool                  `json:"nodeIntegrationInWorker,omitempty"`
 	Offscreen               *bool                  `json:"offscreen,omitempty"`
 	Partition               *string                `json:"partition,omitempty"`
